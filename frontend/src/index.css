@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Some basic layout tweaks */
+body { @apply bg-gray-50; }

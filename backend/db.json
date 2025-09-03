@@ -1,0 +1,57 @@
+{
+  "properties": [
+    
+    {
+      "name": "Nanda house",
+      "type": "House",
+      "price": 400000,
+      "location": "Amritsar, Punjab, IND",
+      "description": "Tiny homes come in all shapes and sizes. (Purists of the tiny house movement define a tiny house to be no larger than 600 square feet, but a more relaxed definition raises that number to around 1,200.)",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/west-virginia-gray-cottage-64dd6bb056057.jpg?crop=0.943xw:0.817xh;0.0224xw,0.0932xh&resize=980:*",
+      "coords": {
+        "lat": 15.4909,
+        "lng": 73.8278
+      },
+      "id": 4
+    },
+    {
+      "name": "Palm Villa",
+      "type": "Villa",
+      "price": 50000,
+      "location": "Grand Trunk Rd, opp. Rose Garden, Gumtala Sub Urban, Gumtala, Amritsar",
+      "description": "2BHKVilla w.pvt Pool by PalmVillas",
+      "image": "https://r1imghtlak.mmtcdn.com/b0cf9051-2408-4110-906e-58698faa084f.jpg",
+      "coords": {
+        "lat": null,
+        "lng": null
+      },
+      "id": 5
+    },
+    {
+      "name": "Farm house",
+      "type": "House",
+      "price": 595000,
+      "location": "Shop No 12, Near Sunil Bar, Kalyan Phata Road, Diaghar Gaon, Mumbra, Thane, Maharashtra, 400612, India",
+      "description": "Prefabricated Farm House By Malik Porta Cabin",
+      "image": "https://tiimg.tistatic.com/fp/1/008/695/prefabricated-farm-house-373.jpg",
+      "coords": {
+        "lat": 12.9346,
+        "lng": 77.6191
+      },
+      "id": 6
+    },
+    {
+      "name": "Jalandhar Heights 3",
+      "type": "Apartment",
+      "price": 12000000,
+      "location": "Pholriwal, Jalandhar, Punjab",
+      "description": "Located in the popular residential address of pholriwal, jalandhar, jalandhar heights 3 is one of the most preferred destination for apartments in jalandhar. This 4 bhk flat is your ticket to be a part of this community. This residential flat is north-East-Facing direction. ",
+      "image": "https://imagecdn.99acres.com/media1/30833/13/616673817O-1751974719573.jpg",
+      "coords": {
+        "lat": 19.0556,
+        "lng": 72.8244
+      },
+      "id": 7
+    }
+  ]
+}
