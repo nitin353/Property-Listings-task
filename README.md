@@ -1,28 +1,55 @@
-# React Property Listings (Vite + Tailwind) + json-server
+# 🏡 Property Listing App
 
-This is a monorepo containing a React frontend (Vite + Tailwind) and a json-server backend.
-It uses npm workspaces so you can install all dependencies from the root.
+A modern, responsive **Property Listing Dashboard** built with **React + Vite + Tailwind CSS**.  
+Backend powered by **json-server** for mock APIs.  
 
-## Quick start (VS Code)
-1. ```bash
-   npm install
-   npm run start
-   ```
-   This installs workspace dependencies and runs both the json-server and the frontend simultaneously.
+---
 
-2. Open the frontend URL printed by Vite (usually http://localhost:5173) and json-server runs on http://localhost:4000 (GET /api/properties).
+## ✨ Features
+- 📋 List of properties with images, location, and details  
+- 🔍 Search and filter by property type or name/location  
+- ➕ Add new properties via a form  
+- 🖼️ Modern UI with responsive grid layout  
+- 📱 Fully responsive (desktop, tablet, mobile)  
+- 🔗 Modal popup to view property details  
 
-## Structure
-- frontend/  -> React + Tailwind app (Vite)
-- backend/   -> json-server (db.json with sample data)
+---
 
-## Notes
-- API endpoints:
-  - GET http://localhost:4000/api/properties
-  - POST http://localhost:4000/api/properties
+## 🛠️ Tech Stack
+- **Frontend:** React, Vite, Tailwind CSS  
+- **UI Icons:** [Lucide React](https://lucide.dev/)  
+- **Backend:** json-server (mock REST API)  
 
-- If you change ports or want to run separately:
-  - `npm --workspace=backend run start`
-  - `npm --workspace=frontend run dev`
+---
 
-Enjoy! 🎉
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/property-listing-app.git
+cd property-listing-app
+2️⃣ Install Dependencies
+npm install
+3️⃣ Start Mock Backend (json-server)
+npx json-server --watch db.json --port 4000
+➡️ API available at:
+
+http://localhost:4000/properties
+
+http://localhost:4000/api/properties
+ → /properties
+
+4️⃣ Start Frontend (Vite)
+npm run dev
+frontend/
+│── src/
+│   ├── components/
+│   │   ├── PropertyCard.jsx      # Card UI for property
+│   │   ├── PropertyModal.jsx     # Modal for details
+│   │   └── AddPropertyForm.jsx   # Form to add new property
+│   ├── App.jsx                   # Main app
+│   └── main.jsx                  # React entry
+│── db.json                       # Mock data
+│── vite.config.js
+│── package.json
+│── tailwind.config.js
