@@ -26,7 +26,6 @@ Backend powered by **json-server** for mock APIs.
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/property-listing-app.git
 cd property-listing-app
 2️⃣ Install Dependencies
 npm install
